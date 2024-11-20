@@ -42,7 +42,7 @@ print_r($result);
 Fetch multiple records from a table based on specific conditions.
 
 ```php
-$results = $db->select('table_name', "WHERE `column_name` = 'value'");
+$results = $db->select('table_name', "`column_name` = 'value'");
 print_r($results);
 ```
 
