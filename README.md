@@ -23,7 +23,7 @@ require_once 'path/to/QuickDB.php';
 Create an instance of the `Database` class by providing the necessary database credentials.
 
 ```php
-$db = new Database('localhost', 'username', 'password', 'database_name');
+$db = new Database('host', 'username', 'password', 'database_name');
 ```
 
 ### Methods
